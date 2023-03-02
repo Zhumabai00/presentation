@@ -87,11 +87,18 @@ a {
     height: auto;
     min-height: 100vh;
   }
+  @media screen and (max-width: 992px) {
+    .product-img__itemss {
+      right: 0px !important;
+    }
+  }
 
   @media screen and (max-width: 767px) {
     margin-top: 20px;
   }
+  @media screen and (max-width: 576px) {
 
+  }
   @media screen and (max-width: 576px) {
     margin-top: 20px;
     margin-bottom: 20px;
