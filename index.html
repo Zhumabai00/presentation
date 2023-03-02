@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Псевдаэлементы + Псевдоклассы</title>
+	<link rel="stylesheet" href="./style/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css">
+</head>
+
+<body>
+	<div class="wrapper">
+
+		<div class="content">
+			<div class="bg-shape">
+				<!-- <img src="./4-5-400x400.png" alt=""> -->
+			</div>
+
+
+			<div class="product-img">
+
+				<!-- <div class="product-img__item" id="img1">
+					<img src="https://res.cloudinary.com/muhammederdem/image/upload/q_60/v1536405217/starwars/item-1.webp"
+						alt="star wars" class="product-img__img">
+				</div> -->
+
+				<div style="width: 350px; right: 50px;" class="product-img__item" id="img2">
+					<img src="./img/boysitatthetable.png" alt="star wars" class="product-img__img">
+				</div>
+
+				<div class="product-img__item" id="img3">
+					<img src="./img/lovepic.png" alt="star wars" class="product-img__img">
+				</div>
+
+				<div class="product-img__item" id="img4">
+					<img src="./img/firstImg.png" alt="star wars" class="product-img__img">
+				</div>
+				<div class="product-img__item" id="5">
+					<!-- <img src="./img/firstImg.png" alt="star wars" class="product-img__img"> -->
+				</div>
+				<div class="product-img__item" id="img6">
+					<img src="./img/cominicat.png" alt="star wars" class="product-img__img">
+				</div>
+				<div style="" class="product-img__item" id="img8">
+					<!-- <img src="./img/themap.png" alt="star wars" class="product-img__img"> -->
+				</div>
+			</div>
+
+
+
+			<div class="product-slider">
+				<button class="prev disabled">
+					<span class="icon">
+						<svg class="icon icon-arrow-right">
+							<use xlink:href="#icon-arrow-left"></use>
+						</svg>
+					</span>
+				</button>
+				<button class="next">
+					<span class="icon">
+						<svg class="icon icon-arrow-right">
+							<use xlink:href="#icon-arrow-right"></use>
+						</svg>
+					</span>
+				</button>
+
+				<div class="product-slider__wrp swiper-wrapper">
+					<div class="product-slider__item swiper-slide" data-target="img4">
+						<div class="product-slider__card">
+							<img src="https://res.cloudinary.com/muhammederdem/image/upload/q_60/v1536405223/starwars/item-4-bg.webp"
+								alt="star wars" class="product-slider__cover">
+							<div class="product-slider__content">
+								<h1 class="product-slider__title">
+									Эмгек укугу
+								</h1>
+								<div class="product-ctr">
+									<div class="product-labels">
+										<div class="product-labels__title">Эмгек укугу – мамлекет тарабынан белгиленген жана уруксат
+											берилген ченемдердин жыйындысын билдирген жумуш берүүчү менен кызматчынын ортосундагы мамилелерди
+											жөнгө салуучу укуктун өз алдынча тармагы.</div>
+									</div>
+								</div>
+
+								<div class="product-slider__bottom">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="product-slider__item swiper-slide" data-target="img1">
+						<div class="product-slider__card">
+							<img src="https://res.cloudinary.com/muhammederdem/image/upload/q_60/v1536405222/starwars/item-1-bg.webp"
+								alt="star wars" class="product-slider__cover">
+							<div style="padding-left: 50px !important; padding-right: 10px !important;"
+								class="product-slider__content">
+								<h1 class="product-slider__title">
+									Эмгек келишимин түзүүдө көрсөтүлүүчү документтер
+								</h1>
+								<div class="product-ctr">
+									<div class="product-labels">
+										<div class="product-labels__title">
+											<ol style="text-align: left;">
+												<li>
+													паспорт;
+												</li>
+												<li>
+													эмгек китепчеси (бар болсо);
+
+												</li>
+												<li>социалдык коргоо күбөлүгү (биринчи жолу ишке орношуп жаткан адамдарга иш берүүчү тарабынан
+													эмгек китепчеси жана социалдык коргоо күбөлүгү толтурулат);</li>
+												<li>атайын билимдерди (даярдыктарды) талап кылган ишке кызматкер билими жөнүндө (адистиги,
+													квалификациясы) документи;</li>
+												<li>аскердик эсепке алуу документтери (аскерге милдеттүүлөр жана аскердик кызматка чакырылууга
+													тийиш болгон адамдар);</li>
+												<li>18 жашка чейинки курактагы адамдарды тарбиялоо, окутуу жана тейлөө менен байланышкан иштерде
+													иштөөсү үчүн соттолбогондугу тууралуу маалым катты көрсөтөт. (КР ЭК 64</li>
+
+											</ol>
+										</div>
+
+									</div>
+								</div>
+
+								<div class="product-slider__bottom">
+									<!-- <button class="product-slider__cart">
+										ADD TO CART
+									</button>
+
+									<button class="product-slider__fav js-fav"><span class="heart"></span> ADD TO WISHLIST</button> -->
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="product-slider__item swiper-slide" data-target="img2">
+						<div class="product-slider__card">
+							<img src="https://res.cloudinary.com/muhammederdem/image/upload/q_60/v1536405222/starwars/item-2-bg.webp"
+								alt="star wars" class="product-slider__cover">
+							<div class="product-slider__content">
+								<h1 class="product-slider__title">
+									Эмгек келишимин түзүү жана ишке кабыл алууну жол-жоболоштуруу
+								</h1>
+								<div class="product-ctr">
+									<div class="product-labels">
+										<div class="product-labels__title">Эмгек келишими жазуу жүзүндө эки нускада түзүлүп даярдалат жана
+											ага тараптар кол коюшат. Бир нускасы кызматкерге берилип, экинчиси иш берүүчүдө сакталат.</div>
+									</div>
+								</div>
+
+								<div class="product-slider__bottom">
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="product-slider__item swiper-slide" data-target="img3">
+						<div class="product-slider__card">
+							<img src="https://res.cloudinary.com/muhammederdem/image/upload/q_60/v1536405215/starwars/item-3-bg.webp"
+								alt="star wars" class="product-slider__cover">
+							<div class="product-slider__content">
+								<h1 class="product-slider__title">
+									Мажбурлаган эмгекке тыюу салуу
+								</h1>
+								<div class="product-ctr">
+									<div class="product-labels">
+										<div class="product-labels__title">
+											Мажбурлаган эмгек, башкача айтканда кандайдыр бир күч колдонуу коркутуусу менен жумуш аткарууга
+											мажбурлоого төмөнкүдөй учурлардан тышкары тыюу салынат:
+
+
+										</div>
+									</div>
+
+								</div>
+
+								<div class="product-slider__bottom">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="product-slider__item swiper-slide" data-target="img5">
+						<div class="product-slider__card">
+							<img src="https://res.cloudinary.com/muhammederdem/image/upload/q_60/v1536405215/starwars/item-3-bg.webp"
+								alt="star wars" class="product-slider__cover">
+							<div style="padding: 0 30px 0 50px;" class="product-slider__content">
+
+								<div class="product-ctr">
+									<div class="product-labels">
+										<div class="product-labels__title">
+											- аскердик милдет жана аскердик кызмат же аны алмаштыруучу альтернативдик жарандык кызмат жөнүндө
+											мыйзамдарда шартталган ишти аткарууга;
+											<br>
+											<br>
+											- өзгөчө жагдайлардын шарттарында, башкача айтканда өзгөчө же согуштук абалды жарыялоо, бөөдө
+											кырсык же кырсык коркунучтары (өрт, суу ташкыны, ачкачылык, жер титирөө, күчтүү эпидемия же
+											эпизоотия) учурларында, ошондой эле бүткүл калктын же анын бөлүгүнүн өмүрүн же ченемдүү турмуш
+											шартын коркунучка койгон башка учурларда иш аткарууга;
+											<br>
+											<br>
+											- сот өкүмүнүн мыйзамдуу күчүнө киришинен улам сот өкүмдөрүн аткарууга мыйзамдарды сактоого
+											жооптуу мамлекеттик органдарынын көзөмөлүндө иш аткарууга.
+											<br>
+											<br>
+											Эң жаман формаларда балдар эмгегин пайдаланууга тыюу салынат.
+										</div>
+
+
+
+									</div>
+								</div>
+
+								<div class="product-slider__bottom">
+
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="product-slider__item swiper-slide" data-target="img6">
+						<div class="product-slider__card">
+							<img src="https://res.cloudinary.com/muhammederdem/image/upload/q_60/v1536405222/starwars/item-1-bg.webp"
+								alt="star wars" class="product-slider__cover">
+							<div class="product-slider__content">
+								<h1 class="product-slider__title">
+									Иш берүүчү
+								</h1>
+								<div class="product-ctr">
+									<div class="product-labels">
+										<div class="product-labels__title">
+											Иш берүүчү - кызматкер менен эмгек мамилесине кирген жеке жак болбосо юридикалык жак (уюм).
+											Мыйзамда белгиленген учурларда иш берүүчү катары эмгек келишимдерин түзүүгө укугу бар башка
+											субъекти чыга алат.
+										</div>
+									</div>
+								</div>
+
+								<div class="product-slider__bottom">
+									<!-- <button class="product-slider__cart">
+										ADD TO CART
+									</button>
+
+									<button class="product-slider__fav js-fav"><span class="heart"></span> ADD TO WISHLIST</button> -->
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="product-slider__item swiper-slide" data-target="img7">
+						<div class="product-slider__card">
+							<img src="https://res.cloudinary.com/muhammederdem/image/upload/q_60/v1536405222/starwars/item-1-bg.webp"
+								alt="star wars" class="product-slider__cover">
+							<div style="padding: 20px 60px;" class="product-slider__content">
+								<div class="product-ctr">
+									<div class="product-labels">
+										<div class="product-labels__title">
+											Иш берүүчүнүн укуктары жана милдеттери эмгек мамилелеринде төмөнкүлөр тарабынан жүзөгө ашырылат:
+											иш берүүчү болуп саналган жеке жак; юридикалык жактын (уюмдун) башкаруу органы же мыйзамда, башка
+											ченемдик укуктук актыларда, юридикалык жактын (уюмдун) уюмдаштыруу документтеринде жана локалдуу
+											ченемдик актыларында белгиленген тартипте алар ыйгарым укук берген адамдар. Менчик ээси
+											(уюмдаштыруучу) тарабынан толук же жарым-жартылай каржылануучу мекемелердин эмгек мамилелеринен
+											келип чыгуучу милдеттенмелери боюнча субсидиардык жоопкерчиликти мыйзамда белгиленген тартипте
+											менчик ээси (уюмдаштыруучу) тартат.
+										</div>
+									</div>
+								</div>
+								<div class="product-slider__bottom"></div>
+							</div>
+						</div>
+					</div>
+					<div class="product-slider__item swiper-slide" data-target="img8">
+						<div class="product-slider__card">
+							<img src="https://res.cloudinary.com/muhammederdem/image/upload/q_60/v1536405222/starwars/item-1-bg.webp"
+								alt="star wars" class="product-slider__cover">
+							<div style="padding: 40px 100px; text-align: left;" class="product-slider__content">
+								<h1 style="font-size: 30px;" class="product-slider__title">
+									Эмгек мамилелеринин субъекттеринин түрлөрү
+								</h1>
+								<div class="product-ctr">
+									<div class="product-labels">
+										<div class="product-labels__title">
+											Жеке эмгек мамилелеринин субъекттери төмөнкүлөр болуп саналат:
+											<ul>
+												<li>
+													- кызматкер;
+													- иш берүүчү.
+												</li>
+											</ul>
+											Жамааттык эмгек мамилелеринин субъекттери төмөнкүлөр болуп саналат:
+											<ul>
+												<li>
+													- кызматкерлердин өкүлчүлүктүү органы (кесиптик бирлик, бириккен өкүлчүлүктүү орган,
+													кызматкерлердин кеңеши жана башкалар);
+												</li>
+												<li>
+													- иш берүүчүлөрдүн бирикмеси;
+												</li>
+												<li>
+													- мыйзамдарда каралган учурларда башка субъекттер.
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+
+								<div class="product-slider__bottom">
+
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+	<svg class="hidden" hidden>
+		<symbol id="icon-arrow-left" viewBox="0 0 32 32">
+			<path
+				d="M0.704 17.696l9.856 9.856c0.896 0.896 2.432 0.896 3.328 0s0.896-2.432 0-3.328l-5.792-5.856h21.568c1.312 0 2.368-1.056 2.368-2.368s-1.056-2.368-2.368-2.368h-21.568l5.824-5.824c0.896-0.896 0.896-2.432 0-3.328-0.48-0.48-1.088-0.704-1.696-0.704s-1.216 0.224-1.696 0.704l-9.824 9.824c-0.448 0.448-0.704 1.056-0.704 1.696s0.224 1.248 0.704 1.696z">
+			</path>
+		</symbol>
+		<symbol id="icon-arrow-right" viewBox="0 0 32 32">
+			<path
+				d="M31.296 14.336l-9.888-9.888c-0.896-0.896-2.432-0.896-3.328 0s-0.896 2.432 0 3.328l5.824 5.856h-21.536c-1.312 0-2.368 1.056-2.368 2.368s1.056 2.368 2.368 2.368h21.568l-5.856 5.824c-0.896 0.896-0.896 2.432 0 3.328 0.48 0.48 1.088 0.704 1.696 0.704s1.216-0.224 1.696-0.704l9.824-9.824c0.448-0.448 0.704-1.056 0.704-1.696s-0.224-1.248-0.704-1.664z">
+			</path>
+		</symbol>
+	</svg>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js"></script>
+	<script src="./main.js"></script>
+</body>
+
+</html>
